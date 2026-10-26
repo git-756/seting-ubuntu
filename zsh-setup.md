@@ -15,7 +15,7 @@ Ubuntu Zsh環境構築手順（Oh My Zsh + 各種プラグイン）Ubuntuイン�
 # Oh-My-Zshのインストール
 Zshのフレームワークである Oh My Zsh をインストールします。
 
-`sh -c "$(curl -fsSL [https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 インストール中に「デフォルトシェルをZshに変更するか？」と聞かれた場合は、すでに変更していても Y を押して進めて問題ありません。<br>
 <br>外部プラグイン・依存ツールのインストール提示されたプラグインのうち、GitHubから別途ダウンロード（クローン）が必要なもの、およびシステム側に依存ツールが必要なもの（fzf など）をインストールします。<br>
